@@ -1,0 +1,9 @@
+.header__links {
+  margin-top: 18px;
+}
+
+@media (max-width: 544px) {
+  .header__links {
+    margin-top: 14px;
+  }
+}
