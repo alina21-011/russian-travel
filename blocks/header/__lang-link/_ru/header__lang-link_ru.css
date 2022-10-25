@@ -9,10 +9,11 @@
   line-height: 28px;
   margin-right: 18px;
   text-decoration-line: underline;
-  }
-  @media (max-width: 544px){
-    .header__lang-link_ru {
+}
+
+@media (max-width: 544px) {
+  .header__lang-link_ru {
     font-size: 18px;
     line-height: 20px;
-    }
   }
+}

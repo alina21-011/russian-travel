@@ -13,4 +13,4 @@
 
 **Github**
 
-* [Ссылка на Github](https://github.com/alina21-011/russian-travel)
+* [Ссылка на Github](https://alina21-011.github.io/russian-travel/)
