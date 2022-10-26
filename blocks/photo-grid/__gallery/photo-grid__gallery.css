@@ -4,17 +4,30 @@
   grid-gap: 16px;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  max-width: 1184px;
+  box-sizing: border-box;
+  margin: auto;
 }
 
-@media (max-width: 1125px) {
+@media (max-width: 1190px) {
   .photo-grid__gallery {
     grid-gap: 14px;
+    max-width: 928px;
+    
+  }
+}
+
+@media (max-width: 984px) {
+  .photo-grid__gallery {
+    grid-gap: 16px;
+    max-width: 720px;
+    
   }
 }
 
 @media (max-width: 535px) {
   .photo-grid__gallery {
     grid-gap: 12px;
+    max-width: 288px;
   }
 }

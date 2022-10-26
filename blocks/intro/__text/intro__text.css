@@ -5,4 +5,17 @@
   line-height: 26px;
   margin-top: 0;
   margin-bottom: 33px;
+  max-width: 690px
+}
+
+@media (max-width: 968px) {
+  .intro__text{
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 588px) {
+  .intro__text{
+    max-width: 288px;
+  }
 }
