@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 460px 484px;
   gap: 48px 40px;
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 
 .place:last-child {
@@ -20,15 +20,16 @@
   .place {
     grid-template-columns: 340px 352px;
     gap: 48px 28px;
+    margin-bottom: 72px;
+  }
+}
+@media (max-width: 767px) {
+  .place {
+    grid-template-columns: 520px;
+    margin-bottom: 50px;
   }
 }
 
-@media (max-width: 713px) {
-  .place {
-    grid-template-columns: 238px 247px;
-    gap: 32px;
-  }
-}
 
 @media (max-width: 568px) {
   .place {

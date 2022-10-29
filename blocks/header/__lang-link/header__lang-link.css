@@ -1,5 +1,4 @@
 .header__lang-link {
-  max-height: 28px;
   max-width: 29px;
   font-style: normal;
   font-weight: 400;
@@ -7,7 +6,24 @@
   line-height: 28px;
   color: #ffffff;
   text-decoration: none;
+  margin-right: 18px;
+
 }
+
+.header__lang-link:hover {
+  text-decoration: underline;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+
+.header__lang-link:active {
+ 
+  text-decoration-line: underline;
+}
+
+
 
 @media (max-width: 544px) {
   .header__lang-link {

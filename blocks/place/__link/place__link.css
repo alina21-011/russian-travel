@@ -6,4 +6,5 @@
   text-decoration-line: underline;
   margin: 0;
   color: #ffffff;
+  max-width: fit-content;
 }

@@ -9,7 +9,7 @@
   margin: auto;
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 1279px) {
   .photo-grid__gallery {
     grid-gap: 14px;
     max-width: 928px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 984px) {
+@media (max-width: 1023px) {
   .photo-grid__gallery {
     grid-gap: 16px;
     max-width: 720px;
@@ -25,7 +25,7 @@
   }
 }
 
-@media (max-width: 535px) {
+@media (max-width: 767px) {
   .photo-grid__gallery {
     grid-gap: 12px;
     max-width: 288px;

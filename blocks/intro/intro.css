@@ -18,8 +18,18 @@
     max-width: 720px;
   }
 }
+@media (max-width: 765px) {
+  .intro{
+    max-width: 580px;
+  }
+}
 
-@media (max-width: 588px) {
+@media (max-width: 625px) {
+  .intro{
+    max-width: 388px;
+  }
+}
+@media (max-width: 488px) {
   .intro{
     max-width: 288px;
   }

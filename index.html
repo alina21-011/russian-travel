@@ -8,13 +8,12 @@
   <title>Путешествие по России</title>
 </head>
 
-<body>
-  <div class="page">
+<body class="page">
     <header class="header">
-      <img class="header__logo" src="images/__logo.png" alt="логотип">
+      <img class="header__logo" src="images/__logo.svg" alt="логотип">
       <div class="header__links">
-        <a href="#" class="header__lang-link header__lang-link_ru">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
+        <a href="#" class="header__lang-link header__lang-link_active:active">Ru</a>
+        <a href="#" class="header__lang-link header__lang-link_active:active">En</a>
       </div>
     </header>
     <main class="content page__content">
@@ -43,7 +42,7 @@
           <li>Аэропортов <span class="intro__number">241</span></li>
         </ul>
       </section>
-      <div class="photo-grid ">
+      <section class="photo-grid ">
         <ul class="photo-grid__gallery">
           <li><img src="images/photo-grid-train.jpg" class="photo-grid__item" alt="Поезд"></li>
           <li><img src="images/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt="Горы в снегу"></li>
@@ -58,12 +57,12 @@
           <li><img src="images/photo-grid-baikal-2.jpg" class="photo-grid__item" alt="Горы на Байкале"></li>
           <li><img src="images/photo-grid-ergaki.jpg" class="photo-grid__item" alt="Горы в тумане"></li>
         </ul>
-      </div>
+      </section>
       <section class="places">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a href="http://park-kosa.ru" class="place__link opacity" target="_blank">park-kosa.ru</a>
           </div>
           <img src="./images/place-kosa.jpg" class="place__image" alt="Побережье Куршской косы">
@@ -81,7 +80,7 @@
         <div class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link opacity"
               target="_blank">National Geographic</a>
           </div>
@@ -100,7 +99,7 @@
         <div class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link opacity"
               target="_blank">Facebook</a>
           </div>
@@ -118,7 +117,7 @@
         <div class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a href="https://vk.com/baikalmile" class="place__link opacity"
               target="_blank">https://vk.com/baikalmile</a>
           </div>
@@ -136,7 +135,7 @@
         <div class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
+            <span class="place__url-heading">url</span>
             <a href="http://vodlozero.ru" class="place__link opacity" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img src="./images/place-karelia.jpg" class="place__image" alt="Река и лес в Сибири">
@@ -170,6 +169,5 @@
       </nav>
       <p class="footer__copyright">© 2022. Алина</p>
     </footer>
-  </div>
 </body>
 </html>
